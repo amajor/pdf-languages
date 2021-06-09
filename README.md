@@ -1,3 +1,39 @@
+# Setup
+
+Install and use [PyCharm Community Edition](https://www.jetbrains.com/pycharm/download/).
+
+Clone this repository.
+
+## Create the Interpreter
+
+You may need to create a new interpreter.
+
+On a Mac, this is under *PyCharm* --> *Preferences* --> *Project* --> *Python Interpreter*
+
+Then in the *Python Interpreter* dropdown, click on **Show All...**
+
+![Set Python Interpreter](./docs/1_Set_python_interpreter.png)
+
+Select the *New Environment* option and choose a base interpreter. Click **OK**.
+
+![Select Python Interpreter](./docs/2_Select_interpreter.png)
+
+## Import Dependencies
+
+In the `unicode.py` file, hover over the imports that are underlined with red.
+
+Click on **Install package ...** for any necessary packages
+
+![Import Dependencies](./docs/3_Import_dependencies.png)
+
+## Run!
+
+Right-click on `unicode.py` in the project list and choose **Run** to run the program!
+
+A new file, **unicode.pdf** should generate in the same directory.
+
+-----
+
 # Fonts
 
 DejaVu fonts can be downloaded [here](https://dejavu-fonts.github.io/).
